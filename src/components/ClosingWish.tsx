@@ -223,16 +223,6 @@ export const ClosingWish: React.FC<ClosingWishProps> = ({ onRestart }) => {
           <PartyPopper className="w-4 h-4" />
           <span>Celebrate with Confetti! 🎉</span>
         </button>
-
-        <button
-          onClick={handleDownloadStandalone}
-          className="inline-flex items-center gap-2 px-6 py-3.5 rounded-3xl bg-white hover:bg-[#FFF5F7] text-[#D87093] border-2 border-[#FFD1DC] font-bold text-sm sm:text-base shadow-xs hover:shadow-sm transition-all active:scale-95 cursor-pointer"
-          title="Download the complete single self-contained HTML file"
-        >
-          <Download className="w-4 h-4" />
-          <span>Download Standalone HTML 💾</span>
-        </button>
-
         <button
           onClick={handleShare}
           className="inline-flex items-center gap-2 px-5 py-3.5 rounded-3xl bg-white hover:bg-[#F0FFFF] text-[#5D4037] border-2 border-[#FFE4E1] font-bold text-sm shadow-xs transition-all active:scale-95 cursor-pointer"
